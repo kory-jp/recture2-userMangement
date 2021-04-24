@@ -28,3 +28,13 @@ docker-compose up -d
 --
 
 docker-compose run back bundle exec rails db:create
+
+---
+
+---
+
+docker-compose run front npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
+
+---
+
+docker-compose run front yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
